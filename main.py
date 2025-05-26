@@ -182,7 +182,7 @@ async def generate_image(image_request: ImageRequest):
     #     raise HTTPException(status_code=500, detail=error_msg)
         
     word = image_request.word.strip()
-    prompt = f"an artistic imagen of '{word}'"
+    prompt = f"a cute, colorful, cartoon-style illustration of '{word}', suitable for children, no violence, no scary or adult themes"
     print(colored(f"🎨 Generating image for: {word} with prompt: '{prompt}'", "blue"))
     
     try:
