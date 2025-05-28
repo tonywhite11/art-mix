@@ -35,3 +35,5 @@ coverage.xml
 build/
 dist/
 *.egg-info/
+
+test*.py
